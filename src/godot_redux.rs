@@ -1,5 +1,5 @@
-use gdnative::api::FuncRef;
-use gdnative::prelude::{
+use godot::api::FuncRef;
+use godott::prelude::{
     core_types::GodotString, methods, Dictionary, NativeClass, Object, Ref, Shared, Unique, Variant,
 };
 

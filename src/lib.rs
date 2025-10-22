@@ -1,5 +1,5 @@
 mod godot_redux;
-use gdnative::prelude::*;
+use godot::prelude::*;
 
 fn init(handle: InitHandle) {
     handle.add_class::<godot_redux::GodotRedux>();
